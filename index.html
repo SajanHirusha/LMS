@@ -94,8 +94,31 @@
           </select>
         </li>
       </ul>
-    </nav>
+  </nav>
 
+  <div id="navigation" class="sidenavigation">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#about">Courses</a></li>
+    <li><a href="#skills">Pricing</a></li>
+    <li><a href="#education">Contact US</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Teachers</a></li>
+    <li>
+      <div class="dropdown" >
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          sign In / Sign Up
+        </a>
+      
+        <ul class="dropdown-menu" >
+          <li class="dropdown-item"  data-value="internalStudents" id="li-1">University Students Loging</li>
+          <li class="dropdown-item"  data-value="onlineStudentsLogin" id="li-2">online courses Students Loging</li>
+          <li class="dropdown-item"  data-value="internalStudents" id="li-3">Register for online Courses</li>
+        </ul>
+      </div>
+    </li>
+</div>
+<span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()"><img id="menuImg" src="Images/menu .png"> </span>
 
 
     <div id="display1">
@@ -197,9 +220,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-<script>
-
-</script>
   <script src="main.js"></script>
 
 </body>

@@ -1,10 +1,33 @@
-let width = screen.width;
+function openNav() {
+    document.getElementById("navigation").style.width = "210px";
+}
+
+function closeNav() {
+    document.getElementById("navigation").style.width = "0";
+}
 
 
-           
+
+let width = screen.width;           
 let select1 = document.getElementById('sType');
 select1.addEventListener('change', function () {
     loadForm(select1.value);
+});
+
+let select2 = document.getElementById('li-1');
+let select3 = document.getElementById('li-2');
+let select4 = document.getElementById('li-3');
+
+select2.addEventListener('click', function () {
+    loadForm(select2.dataset.value);
+});
+
+select3.addEventListener('click', function () {
+    loadForm(select3.dataset.value);
+});
+
+select4.addEventListener('click', function () {
+    loadForm(select4.dataset.value);
 });
 
 function loadForm(selectValue) {

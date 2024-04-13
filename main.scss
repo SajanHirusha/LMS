@@ -129,6 +129,79 @@
   }
 
 
+//    NAVBAR 2 OPEN
+#navigation {
+  display: none;
+  .btn{
+    background-color: rgba(5, 11, 65, 0.1) ;
+    margin-left: 3px;
+    margin-right: 7px;
+    margin-top: 10px;
+    padding: 0;
+    border: none;
+  }
+}
+dropdown-item{
+  font-size: 7px;
+}
+.open {
+  display: none;
+}
+
+#menuImg {
+  width: 30px;
+  height: 25px;
+  opacity: 0.8;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  z-index: 2;
+}
+
+.sidenavigation {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(5, 11, 65, 0.7);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    color:white;
+    display: block;
+    transition: 0.3s;
+    line-height: 1.5;
+  }
+
+  a:hover {
+    color: yellow;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+}
+
+//    NAVBAR 2 CLOSE
+
+
+
   #registrationForm {
 
     background-color: #ffffff;
@@ -481,8 +554,42 @@
   }
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 760px) {
+  #logo {
 
+  left:30px;
+  }
+  #nav {
+    right: 16px;
 
+    ul {
 
+      li {
+        margin: 7px;
+
+        a {
+         font-size: 11px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 638px) {
+  #logo {
+    left:80% !important;
+  }
+
+  #nav{
+    display: none;
+  }
+  
+  #navigation {
+    display: initial;
+
+  }
+
+  .open {
+    display: initial;
+  }
 }
