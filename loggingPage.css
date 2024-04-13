@@ -60,7 +60,6 @@ h1 {
   position: relative;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -38%);
   overflow: hidden;
   border-top: 7px solid #0c054d;
   border-bottom: 20px solid #0c054d;
@@ -169,7 +168,6 @@ h1 {
   position: relative;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -43%);
   border-top: 7px solid #0c054d;
   border-bottom: 20px solid #0c054d;
   border-left: 3px solid #0c054d;
