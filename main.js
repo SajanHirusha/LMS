@@ -8,7 +8,8 @@ function closeNav() {
 
 
 
-let width = screen.width;           
+let width = screen.width;  
+console.log(width);         
 let select1 = document.getElementById('sType');
 select1.addEventListener('change', function () {
     loadForm(select1.value);
@@ -53,7 +54,7 @@ function loadForm(selectValue) {
             document.getElementById('display1').style.display = "none";
             document.getElementById('display3').style.display = "none";
         }
-    }else{
+    }else if(width<=760){
         if (selectValue === "onlineStudentsLogin") {
             console.log("onlineStudentsLogin");
             localStorage.setItem('indexPage-token1','display4');
