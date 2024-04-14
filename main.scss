@@ -144,6 +144,7 @@
 }
 .dropdown-item{
   font-size:11px !important;
+  color:black !important;
 }
 .open {
   display: none;
@@ -557,35 +558,6 @@
 
 @media only screen and (max-width: 760px) {
   #logo {
-
-  left:30px;
-  }
-  #nav {
-    right: 16px;
-
-    ul {
-
-      li {
-        margin: 7px;
-
-        a {
-         font-size: 11px;
-        }
-      }
-    }
-  }
-
-  #intro1,
-  #intro2,
-  #intro3 {
-   top:30% !important;
-
-  }
-}
-
-@media only screen and (max-width: 638px) {
-
-  #logo {
     left:80% !important;
   }
 
@@ -601,7 +573,17 @@
   .open {
     display: initial;
   }
+
+
+  #intro1,
+  #intro2,
+  #intro3 {
+   top:30% !important;
+
+  }
 }
+
+
 @media only screen and (max-width: 511px) {
 
   #logo {
