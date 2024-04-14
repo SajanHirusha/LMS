@@ -9,11 +9,10 @@
 
 #logo {
     z-index: 1;
-    position: relative;
-    left: 30px;
-    top: 20px;
-
-    img {
+position:relative;
+left:30px;
+top:20px;
+img {
         width: 100px;
         height: 40px;
 
@@ -21,39 +20,38 @@
 }
 
 .dropdown {
-    position: relative;
-    left: 73%;
-    bottom: 20px;
+    position:relative;
+    left:73%;  
+    bottom:20px;
     z-index: 2;
-
-    .btn {
-        background-color: rgba(5, 11, 65, 0.1);
-        margin-left: 3px;
-        margin-right: 7px;
-        margin-top: 10px;
-        padding: 0;
-        border: none;
-        color: #ffad05;
-    }
-
-    .dropdown-item {
-        font-size: 13px !important;
-    }
-}
+            .btn{
+                background-color: rgba(5, 11, 65, 0.1) ;
+                margin-left: 3px;
+                margin-right: 7px;
+                margin-top: 10px;
+                padding: 0;
+                border: none;
+                color: #ffad05;
+              }
+            
+            .dropdown-item{
+              font-size:13px !important;
+            }
+}      
 
 
 h1 {
-
-    width: 70%;
-    margin: auto;
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
-    padding-left: 30px;
-    color: white !important;
-    font-size: 20px !important;
+   
+    width:70%;
+margin:auto;
+margin-top:20px !important;
+margin-bottom:20px !important;
+padding-left:30px;
+        color: white !important;
+        font-size: 20px !important;
 }
 
-#onlineLoggin {
+#onlineLoggin{
     z-index: 1;
     padding: 30px 20px;
     padding-left: 43px;
@@ -66,8 +64,7 @@ h1 {
     border-right: 3px solid #0c054d;
     border-radius: 20px;
     opacity: 0.8;
-    margin: auto;
-
+margin:auto;
     h2 {
         color: #777;
         font-size: 25px;
@@ -111,65 +108,46 @@ h1 {
 
 @media only screen and (max-width: 550px) {
     #logo {
-        img {
+    img {
             width: 60px;
             height: 30px;
-
+    
         }
     }
-
+    
     .dropdown {
-        left: 61%;
-        bottom: 20px;
+        left:61%;  
+        bottom:20px;
         z-index: 2;
-
-        .btn {
-            padding: 5px 10px;
-            font-size: 11px !important;
-        }
-
-        .dropdown-item {
-            font-size: 11px !important;
-        }
-    }
-
-
+                .btn{
+                    padding:5px 10px;
+                    font-size:11px !important;
+                  }
+                
+                .dropdown-item{
+                  font-size:11px !important;
+                }
+    }      
+    
+    
     h1 {
-
-        width: 82%;
-        font-size: 16px !important;
+       
+        width:82%;
+            font-size: 16px !important;
     }
-
-    #onlineLoggin {
-        padding: 30px 10px;
-        padding-left: 34px;
-        width: 240px;
-
-        h2 {
-            font-size: 20px;
-        }
-
-        button {
-            width: 60px;
-            margin: 40px 10px;
-
-        }
+    #onlineLoggin{
+      padding: 30px 10px;
+      padding-left: 34px;
+      width: 240px;
+  
+      h2 {
+        font-size: 20px;
+      }
+  
+      button {
+        width: 60px;
+        margin: 40px 10px;
+        
+      }
     }
-}
-
-@media only screen and (max-width: 400px) {
-
-    .dropdown {
-        left: 50%;
-}
-// #onlineLoggin {
-//     position:relative;
-//     right:13px;
-// }
-
-h1 {
-
-    font-size: 13px !important;
-}
-
 }
