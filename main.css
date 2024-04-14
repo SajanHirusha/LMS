@@ -125,10 +125,11 @@
   margin-top: 10px;
   padding: 0;
   border: none;
+  color: #ffad05;
 }
 
-dropdown-item {
-  font-size: 7px;
+.dropdown-item {
+  font-size: 11px !important;
 }
 
 .open {
