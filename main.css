@@ -510,6 +510,11 @@ dropdown-item {
   #nav ul li a {
     font-size: 11px;
   }
+  #intro1,
+  #intro2,
+  #intro3 {
+    top: 30% !important;
+  }
 }
 @media only screen and (max-width: 638px) {
   #logo {
@@ -523,6 +528,81 @@ dropdown-item {
   }
   .open {
     display: initial;
+  }
+}
+@media only screen and (max-width: 511px) {
+  #logo {
+    left: 76% !important;
+  }
+  #intro1,
+  #intro2,
+  #intro3 {
+    width: 320px !important;
+  }
+  #intro1 .p,
+  #intro2 .p,
+  #intro3 .p {
+    font-size: 17px;
+  }
+  #intro1 h1,
+  #intro2 h1,
+  #intro3 h1 {
+    font-size: 25px;
+  }
+  #intro1 .para,
+  #intro2 .para,
+  #intro3 .para {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 412px) {
+  #logo {
+    left: 73% !important;
+  }
+  #intro1,
+  #intro2,
+  #intro3 {
+    width: 260px !important;
+  }
+  #intro1 .p,
+  #intro2 .p,
+  #intro3 .p {
+    font-size: 13px;
+  }
+  #intro1 h1,
+  #intro2 h1,
+  #intro3 h1 {
+    font-size: 20px;
+  }
+  #intro1 .para,
+  #intro2 .para,
+  #intro3 .para {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  #logo {
+    left: 70% !important;
+  }
+  #intro1,
+  #intro2,
+  #intro3 {
+    width: 220px !important;
+  }
+  #intro1 .p,
+  #intro2 .p,
+  #intro3 .p {
+    font-size: 12px;
+  }
+  #intro1 h1,
+  #intro2 h1,
+  #intro3 h1 {
+    font-size: 17px;
+  }
+  #intro1 .para,
+  #intro2 .para,
+  #intro3 .para {
+    font-size: 7px;
   }
 }
 
