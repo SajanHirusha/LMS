@@ -135,10 +135,6 @@ h1 {
   .dropdown {
     left: 50%;
   }
-  #onlineLoggin {
-    position: relative;
-    right: 13px;
-  }
   h1 {
     font-size: 13px !important;
   }
